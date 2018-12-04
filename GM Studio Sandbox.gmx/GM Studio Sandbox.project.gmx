@@ -5,9 +5,25 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Room 01">
+      <sprites name="Environments">
+        <sprite>sprites\spr_GroundCol</sprite>
+      </sprites>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Room 01">
+      <objects name="Environments">
+        <object>objects\obj_GroundCol</object>
+      </objects>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_01</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
